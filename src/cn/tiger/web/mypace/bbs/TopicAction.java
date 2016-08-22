@@ -46,8 +46,8 @@ import cn.tiger.utils.zstring.MyStringUtil;
 	@Result(name = "createNewTopic", location = "/WEB-INF/zz7/mypace/bbs/createTopic.jsp", type = "dispatcher"),
 	@Result(name = "login", location = "/WEB-INF/zz7/mypace/login.jsp", type = "dispatcher"),
 	@Result(name = "save_ok", location = "topic.action", type = "redirect"),
-	@Result(name = "showTopic", location = "/WEB-INF/zz7/mypace/bbs/showTopic.jsp", type = "dispatcher"),
-	@Result(name = "donate", location = "/WEB-INF/zz7/mypace/bbs/donate.jsp", type = "dispatcher")
+	@Result(name = "showTopic", location = "/WEB-INF/zz7/mypace/bbs/showTopic.jsp", type = "dispatcher")
+
 })
 public class TopicAction extends ActionSupport{
 	
@@ -292,10 +292,6 @@ public class TopicAction extends ActionSupport{
             }
         }
     }  
-	
-	public String donate(){
-		return "donate";
-	}
 
 	public BbsManager getBbsManager() {
 		return bbsManager;

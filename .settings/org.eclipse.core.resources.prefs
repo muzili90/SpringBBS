@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/cn/tiger/dao/account/AuthorityDao.java=UTF-8
+encoding//src/cn/tiger/dao/account/RoleDao.java=UTF-8
+encoding//src/cn/tiger/dao/account/UserDao.java=UTF-8
+encoding//src/cn/tiger/dao/bbs/CommentDao.java=UTF-8
+encoding//src/cn/tiger/dao/bbs/NodeDao.java=UTF-8
+encoding//src/cn/tiger/dao/bbs/TopicDao.java=UTF-8
+encoding//src/cn/tiger/service/account/MyUserDetailsServiceImpl.java=UTF-8
+encoding//src/cn/tiger/service/account/UserDetailsServiceImpl.java=UTF-8

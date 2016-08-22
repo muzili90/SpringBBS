@@ -1,0 +1,12 @@
+2016-06-04 00:40:04,468 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctAuthority]; using defaults.
+2016-06-04 00:40:04,597 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Section]; using defaults.
+2016-06-04 00:40:04,602 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.TopicAd]; using defaults.
+2016-06-04 00:40:04,607 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckTopicAd]; using defaults.
+2016-06-04 00:40:04,610 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser]; using defaults.
+2016-06-04 00:40:04,624 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Comment]; using defaults.
+2016-06-04 00:40:04,630 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Topic]; using defaults.
+2016-06-04 00:40:04,639 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Node]; using defaults.
+2016-06-04 00:40:04,644 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole]; using defaults.
+2016-06-04 00:40:04,653 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole.authorityList]; using defaults.
+2016-06-04 00:40:04,692 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser.roleList]; using defaults.
+2016-06-04 00:40:04,928 [main] WARN  [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests.setApplicationContext(org.springframework.context.ApplicationContext)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.

@@ -1,0 +1,1 @@
+在simditor.js文件中修改了 可以选择的高亮显示代码语言 导入请使用完整simditor.js

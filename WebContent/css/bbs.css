@@ -1,0 +1,371 @@
+.bbs-top{
+	height:50px;
+	line-height: 50px;
+}
+
+.background-title-color{
+	background-color: #22C65B;
+	color:#ffffff;
+}
+.bbs-text-center{
+	
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.bbs-center-border{
+	
+	border:1px solid #B4BBBE;
+	border-left:1px solid #ffffff;
+	border-right:1px solid #ffffff;
+	border-bottom:1px solid #ffffff;
+	
+}
+
+.bbs-bottom{
+	padding-top:15px;
+	height:70px;
+	background-color: #F5F5F5;
+	
+	border:1px solid #336699;
+	border-left:1px solid #ffffff;
+	border-right:1px solid #ffffff;
+	border-bottom:1px solid #ffffff;
+}
+
+.bbs-bottom2{
+	padding-top:15px;
+	height:70px;
+	background-color: #F5F5F5;
+	
+	border:1px solid #336699;
+	border-top:1px solid #ffffff;
+}
+
+.bbs-bottom-posi{
+	position:absolute;bottom:0px;left:0px;
+	
+}
+
+.bbs-icons-spring{
+	padding-top:18px;
+	padding-left:25px;
+}
+
+.dateStyle{
+	color:#808080;
+}
+
+.divheight5{
+	
+	height:5px;
+}
+
+.bbsCreateUser{
+	color:#22C65B;
+}
+
+.spansmail{
+	font-size:12px;
+	color:#b7b7b7;
+}
+
+.bbsNewTopic{
+	margin-right:25px;
+	color:#ffffff;
+}
+
+a.whitez:link{
+	color: #FFFFFF /* 鼠标移动到链接上 */
+}
+
+a.whitez:visited{
+	color: #FFFFFF /* 鼠标移动到链接上 */
+}
+
+a.whitez:hover{
+	color: #FFFFFF /* 鼠标移动到链接上 */
+}
+a.whitez:active{
+	color: #FFFFFF /* 鼠标移动到链接上 */
+}
+
+.bbs-createTopic-title{
+	border:1px solid #336699;
+	margin-left:30px;
+	margin-top:30px;
+	margin-bottom:15px;
+	margin-right:0px;
+	padding:0px;
+}
+
+.margin-left30{
+	margin-left:15px;
+}
+
+.bbs-createTopic-context{
+	margin:30px;
+	margin-bottom:0px;
+	margin-top:15px;
+	height:440px;
+	border:1px solid #336699;
+	padding-top:15px;
+	
+}
+
+.divSimditor{
+	height:400px;
+	overflow-y:auto;
+}
+
+.ztextarea{
+	height:100%;
+	width:100%;
+	border:0px;
+	padding:10px;
+}
+
+.ztextareaBorder{
+	height:100%;
+	width:100%;
+	border:1px soild #336699;
+	padding:10px;
+}
+
+.bbsnoborderText{
+	border:1px solid #336699;
+	border-right:1px solid #ffffff;
+	border-top:1px solid #ffffff;
+	border-bottom:1px solid #ffffff;
+}
+
+.bbs-createTopic-bottom{
+	margin:30px;
+	margin-top:15px;
+}
+.bbs-error{
+	color:red;
+}
+
+.bbsCreateCenterPanel{
+	height:700px;
+	margin-top:30px;
+	margin-buttom:30px;
+}
+
+.bbsCreate-border-md6{
+	border: solid 1px #336699;
+	height:695px;
+}
+
+.margin-right-10{
+	margin-right:10px;
+}
+
+.margin-right-10-2{
+	margin-right:10px;
+	width:170px;
+}
+
+#btnGo{
+   cursor:pointer;
+}
+
+#topicAdZan{
+	cursor:pointer;
+}
+
+#topicAdCai{
+	cursor:pointer;
+}
+
+#commentAdZan{
+	cursor:pointer;
+}
+
+#commentAdCai{
+	cursor:pointer;
+}
+
+#commontbtnGo{
+   cursor:pointer;
+}
+
+.bbs-top-node{
+	height:30px;
+	line-height: 30px;
+}
+
+.bbs-user-panel{
+	border:1px solid #336699;
+	border-top:1px solid #ffffff;
+	border-bottom:1px solid #ffffff;
+	border-left:1px solid #ffffff;
+	border-right:1px solid #336699;
+	padding-top:5px;
+}
+
+.bbs-context-panel{
+	padding:25px;
+	word-wrap: break-word;
+	word-break: normal;
+	font-size: 15px;
+	font-style: normal;
+}
+
+.bbs-panel-height{
+	height:400px;
+}
+
+.bbs-top-time{
+	height:30px;
+	line-height: 30px;
+	text-align: right;
+}
+
+.bbsViewTitlePanel{
+	margin-top:30px;
+	margin-buttom:30px;
+}
+
+.bbsViewTitle-border-md6{
+	border: solid 1px #336699;
+}
+
+.bbs-context-margin-bottom{
+	margin-bottom: 5px;
+}
+
+.bbs-margin-bottom{
+	margin-top:25px;
+	margin-bottom: 5px;
+}
+
+.bbs-bottom-margin30{
+	margin-bottom: 30px;
+}
+
+.bbs-good-tread{
+	position:absolute;bottom:0px;right:0px;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+
+.bbs-user-img{
+	margin-top:20px;
+	margin-left:20px;
+}
+
+.bbs-user-loginname{
+	margin-left:65px;
+	margin-top:15px;
+	color:#22C65B;
+}
+
+.bbs-user-name{
+	margin-left:65px;
+	margin-top:5px;
+	color:#336699;
+}
+
+.bbs-user-level{
+	margin-left:65px;
+	margin-top:5px;
+	color:#ff8000;
+}
+
+.imglevel{
+}
+.levelText{
+}
+
+.badgeImg{
+	margin-top:10px;
+}
+
+.bbs-reply{
+	height:400px;
+	margin-top:10px;
+}
+
+.bbs-reply-btn{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.label-all{
+	line-height: 40px;
+	font-weight: normal;
+}
+
+.label-hot{
+	line-height: 40px;
+	font-weight: normal;
+}
+
+.label-label{
+	line-height: 40px;
+	font-weight: normal;
+}
+
+.caret{
+	font-weight: normal;
+	margin: 0px;
+}
+
+a.ahome:link{
+	color: #FFFFFF /* 未被访问的链接 */
+}
+
+a.ahome:visited{
+	color: #FFFFFF /* 已被访问过的链接 */
+}
+
+a.ahome:hover{
+	cursor:hand;
+	color: #FFFFFF;
+	text-decoration:none;
+}
+a.ahome:active{
+	color: #FFFFFF /* 鼠标点中激活链接 */
+}
+
+/*ahot*/
+a.ahot:link{
+	color: #FFFFFF /* 未被访问的链接 */
+}
+
+a.ahot:visited{
+	color: #FFFFFF /* 已被访问过的链接 */
+}
+
+a.ahot:hover{
+	cursor:hand;
+	color: #FFFFFF;
+	text-decoration:none;
+}
+a.ahot:active{
+	color: #FFFFFF /* 鼠标点中激活链接 */
+}
+
+/*alabel*/
+a.alabel:link{
+	color: #FFFFFF /* 未被访问的链接 */
+}
+
+a.alabel:visited{
+	color: #FFFFFF /* 已被访问过的链接 */
+}
+
+a.alabel:hover{
+	cursor:hand;
+	color: #FFFFFF;
+	text-decoration:none;
+}
+a.alabel:active{
+	color: #FFFFFF /* 鼠标点中激活链接 */
+}
+
+.admin-manage{
+	color:#336699;
+}

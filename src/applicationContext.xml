@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd"
+	default-lazy-init="true">
+
+	<description>Spring公共配置 </description>
+
+	<!-- 定义受环境影响易变的变量 -->
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<!-- 可以从jvm虚拟机的参数中获得配置信息 -->
+		<property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE" />
+		<!-- 当找不到这个配置文件时，则跳过，这样就不会抛出FileNotFoundException了 -->
+		<property name="ignoreResourceNotFound" value="true" />
+		<!-- 载入外部配置 -->
+		<property name="locations">
+			<list>
+				<!-- 标准配置 -->
+				<value>classpath*:/application.properties</value>
+				<!-- 集群中节点配置 -->
+				<value>classpath*:/application.cluster.properties</value>
+				<!-- 本地开发环境配置 -->
+				<value>classpath*:/application.local.properties</value>
+				<!-- 服务器生产环境配置 -->
+				<value>file:/var/MySpringBBSSample/application.server.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- 使用annotation 自动注册bean,并保证@Required,@Autowired的属性被注入 -->
+	<!-- 7z 自动扫描dao并且注入 -->
+	<context:component-scan base-package="cn.tiger" />
+
+	<!-- 数据源配置,使用应用内的DBCP数据库连接池 -->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<!-- Connection Info -->
+		<property name="driverClassName" value="${jdbc.driver}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+
+		<!-- Connection Pooling Info -->
+		<!-- 最大空闲值.当经过一个高峰时间后，连接池可以慢慢将已经用不到的连接慢慢释放一部分，一直减少到maxIdle为止 ，0时无限制-->
+		<property name="maxIdle" value="${dbcp.maxIdle}" />
+		<!-- 连接池的最大值，同一时间可以从池分配的最多连接数量，0时无限制 -->
+		<property name="maxActive" value="${dbcp.maxActive}" />
+		<!-- 是否对sql进行自动提交 -->
+		<property name="defaultAutoCommit" value="false" />
+		<!--  timeBetweenEvictionRunsMillis和minEvictableIdleTimeMillis一起使用,每-->
+		<!--  timeBetweenEvictionRunsMillis毫秒秒检查一次连接池中空闲的连接,把空闲时间超过minEvictableIdleTimeMillis-->
+		<!--  毫秒的连接断开,直到连接池中的连接数到minIdle为止-->
+		<property name="timeBetweenEvictionRunsMillis" value="3600000" />
+		<property name="minEvictableIdleTimeMillis" value="3600000" />
+	</bean>
+
+	<!-- 数据源配置,使用应用服务器的数据库连接池 -->
+	<!--<jee:jndi-lookup id="dataSource" jndi-name="java:comp/env/jdbc/ExampleDB" />-->
+
+	<!-- Hibernate配置 -->
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<!-- 允许你为数据库中的对象和schema 元素指定一个“命名标准” -->
+		<property name="namingStrategy">
+			<bean class="org.hibernate.cfg.ImprovedNamingStrategy" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+				<prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+				<prop key="hibernate.format_sql">${hibernate.format_sql}</prop>
+				<!-- EhCache是Hibernate的二级缓存技术之一，可以把查询出来的数据存储在内存或者磁盘，节省下次同样查询语句再次查询数据库，大幅减轻数据库压力； -->
+				<prop key="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</prop>
+				<!--设置缓存的配置文件路径 -->
+				<prop key="hibernate.cache.provider_configuration_file_resource_path">ehcache/ehcache-hibernate-local.xml</prop>
+			</props>
+		</property>
+		<!-- 7z自动扫描hibernate实体类 -->
+		<!--  <property name="packagesToScan" value="cn.tigerz.entity.account" /> -->
+		
+		<property name="packagesToScan">
+			<list>
+				<value>cn.tiger.entity.account</value>
+				<value>cn.tiger.entity.bbs</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- 事务管理器配置,单数据源事务 -->
+	<bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<!-- 使用annotation定义事务 -->
+	<!-- proxy-target-class属性值决定是基于接口的还是基于类的代理被创建。如果proxy-target-class 属性值被设置为true，那么基于类的代理将起作用（这时需要cglib库）。如果proxy-target-class属值被设置为false或者这个属性被省略，那么标准的JDK 基于接口的代理将起作用。 -->
+	<tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true" />
+</beans>

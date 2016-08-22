@@ -1,0 +1,35 @@
+.infoBorder {
+	border:1px solid #336699;
+}
+
+.infoMarginTop{
+	margin-top: 20px;
+}
+
+.infoMarginBottom{
+	margin-bottom: 20px;
+}
+
+.infoHelpDiv{
+	height:985px;
+}
+
+.infoHelpDiv2{
+	height:625px;
+}
+
+.helpFont24PX{
+	font-size: 24px;
+}
+
+.helpFont16PX{
+	font-size: 14px;
+}
+
+.helpFont18PX{
+	font-size: 18px;
+}
+
+.colorBlue{
+	color:#0080c0;
+}

@@ -1,0 +1,70 @@
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Microsoft YaHei,'ËÎÌו' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+
+.showborder {
+	border:1px solid #336699;
+}
+
+.buttonWidth{
+	
+	width:140px;
+	margin-top:10px;
+}
+
+.inputWidth{
+	width:65px;
+}
+
+.headerBorder{
+	height:50px;
+	border: solid 1px #336699;
+	line-height: 50px;
+	padding-left:70px;
+}
+
+.centerPanel{
+	height:1180px;
+	margin-top:30px;
+	margin-buttom:30px;
+}
+
+.border-md6{
+	border: solid 1px #336699;
+	height:1175px;
+}
+
+.nopaddingmargin{
+	
+	margin:0px;padding:0px;
+}
+
+.nomargin{
+	margin:0px;
+}
+.nopadding{
+	padding:0px;
+}
+.noborder{
+	border:0px;
+}
+
+.noRadius{
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.divLineHeight5{
+	padding-top:7px;
+	margin-right:10px;
+	
+}
+
+.blank20{
+	height:5px;
+}
+
+.border1px{
+	border:1px solid #336699;
+}
+    

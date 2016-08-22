@@ -1,0 +1,24 @@
+
+.showborder {
+	border:1px solid #336699;
+}
+
+.rowheight150{
+	height:150px;
+}
+
+.rowheight350{
+	height:350px;
+}
+
+.spanheight5{
+	height:5px;
+}
+
+.center{
+	height:460px;
+	border:1px solid #336699;
+	border-right:1px solid #ffffff;
+	border-bottom:1px solid #ffffff;
+	padding:40px;
+}

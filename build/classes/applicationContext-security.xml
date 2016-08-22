@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:s="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+                        http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.0.xsd"
+	default-lazy-init="true">
+
+	<description>SpringSecurity安全配置</description>
+
+	<!-- http安全配置 -->
+	<!-- auto-config 自动配置login form,BSIC 认证和logout URL 和logout services -->
+	<!-- use-expressions 启用SpEL 表达式访问控制 -->
+	<s:http auto-config="true" use-expressions="true">
+		<s:intercept-url pattern="/css/**" filters="none" />
+		<s:intercept-url pattern="/img/**" filters="none" />
+		<s:intercept-url pattern="/js/**" filters="none" />
+		
+		<!-- <s:intercept-url pattern="/mypace/account/user!register.action" filters="none" /> -->
+
+		<!-- 对于在http/intercept-url中没有进行定义的URL，将会默认使用系统内置的过滤器链进行权限认证 -->
+		<!-- 用多个<intercept-url>元素为不同URL的集合定义不同的访问需求 -->
+		<s:intercept-url pattern="/account/user!save*" access="hasAnyRole('ROLE_修改用户')" />
+		<s:intercept-url pattern="/account/user!delete*" access="hasAnyRole('ROLE_修改用户')" />
+		<s:intercept-url pattern="/account/user*" access="hasAnyRole('ROLE_浏览用户')" />
+		<s:intercept-url pattern="/account/role!save*" access="hasAnyRole('ROLE_修改角色')" />
+		<s:intercept-url pattern="/account/role!delete*" access="hasAnyRole('ROLE_修改角色')" />
+		<s:intercept-url pattern="/account/role*" access="hasAnyRole('ROLE_浏览角色')" />
+		
+		<s:intercept-url pattern="/mypace**" access="hasAnyRole('ROLE_浏览用户')" />
+
+		<s:form-login login-page="/mypace/login.action" default-target-url="/mypace/login!loginInfo.action" authentication-failure-url="/mypace/login.action?error=true" />
+		<s:logout logout-success-url="/" />
+	</s:http>
+
+	<!-- 认证配置, 使用userDetailsService提供的用户信息 -->
+	<!-- AuthenticationManager - 通过框架的其它部分，处理认证请求。 -->
+	<s:authentication-manager alias="authenticationManager">
+	<!-- AuthenticationProviders - 验证管理器验证用户的机制。 该命名空间提供几种标准选项，意味着使用传统语法添加自定义bean。  -->
+		<s:authentication-provider user-service-ref="userDetailsService">
+			<!--  添加一个密码编码器 -->
+			<s:password-encoder hash="md5">
+			</s:password-encoder>
+		</s:authentication-provider>
+	</s:authentication-manager>
+
+	<!-- 项目实现的用户查询服务 -->
+	<!-- UserDetailsService - 密切相关的认证供应器，但往往也需要由其他bean需要。 -->
+	<bean id="userDetailsService" class="cn.tiger.service.account.MyUserDetailsServiceImpl" />
+</beans>

@@ -1,0 +1,72 @@
+.forget-table-main{
+	height:40px;
+	padding:5px;
+}
+
+.forget-table1{
+	width:33.3%;
+	height:100%;
+	text-align: center;
+	line-height: 25px;
+	background-color: #22C65B;
+	color:#ffffff;
+	border:1px solid #336699;
+	border-left:1px solid #336699;
+	border-right:1px solid #ffffff;
+	border-bottom:1px solid #336699;
+}
+
+.forget-table2{
+	width:33.3%;
+	height:100%;
+	text-align: center;
+	line-height: 25px;
+	background-color: #22C65B;
+	color:#ffffff;
+	border:1px solid #336699;
+	border-left:1px solid #FFFFFF;
+	border-right:1px solid #ffffff;
+	border-bottom:1px solid #336699;
+}
+
+.forget-table3{
+	width:33.3%;
+	height:100%;
+	text-align: center;
+	line-height: 25px;
+	background-color: #22C65B;
+	color:#ffffff;
+	border:1px solid #336699;
+	border-left:1px solid #FFFFFF;
+	border-right:1px solid #336699;
+	border-bottom:1px solid #336699;
+}
+
+.border1pxnobottom{
+	border:1px solid #336699;
+	border-left:1px solid #336699;
+	border-right:1px solid #336699;
+	border-bottom:1px solid #FFFFFF;
+}
+
+.forget-table2-red{
+	background-color: red;
+}
+
+.forget-table3-red{
+	background-color: red;
+}
+
+.reset-table-main{
+	border:1px solid #336699;
+	background-color: #22C65B;
+	color:#ffffff;
+	text-align: center;
+	line-height: 25px;
+	
+}
+
+.errorMsg{
+	margin-top:10px;
+	color:red;
+}

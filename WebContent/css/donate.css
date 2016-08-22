@@ -1,0 +1,25 @@
+.donate{
+	text-align: center;
+	margin-top:50px;
+	margin-bottom: 50px;
+}
+
+.infoBorder {
+	border:1px solid #336699;
+}
+
+.infoMarginTop{
+	margin-top: 20px;
+}
+
+.infoMarginBottom{
+	margin-bottom: 20px;
+}
+
+.infoBadgeDiv{
+	height:625px;
+}
+
+.donateInfo{
+	text-align: center;
+}

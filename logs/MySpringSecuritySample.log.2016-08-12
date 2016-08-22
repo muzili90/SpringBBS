@@ -1,0 +1,295 @@
+2016-08-12 11:57:23,791 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctAuthority]; using defaults.
+2016-08-12 11:57:23,981 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Section]; using defaults.
+2016-08-12 11:57:23,988 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckCommentAd]; using defaults.
+2016-08-12 11:57:23,993 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.TopicAd]; using defaults.
+2016-08-12 11:57:24,000 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckTopicAd]; using defaults.
+2016-08-12 11:57:24,006 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser]; using defaults.
+2016-08-12 11:57:24,028 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Comment]; using defaults.
+2016-08-12 11:57:24,037 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommentAd]; using defaults.
+2016-08-12 11:57:24,042 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommunityLevel]; using defaults.
+2016-08-12 11:57:24,048 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUserInfo]; using defaults.
+2016-08-12 11:57:24,057 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Topic]; using defaults.
+2016-08-12 11:57:24,079 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Node]; using defaults.
+2016-08-12 11:57:24,087 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole]; using defaults.
+2016-08-12 11:57:24,106 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole.authorityList]; using defaults.
+2016-08-12 11:57:24,165 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser.roleList]; using defaults.
+2016-08-12 11:57:24,639 [main] WARN  [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests.setApplicationContext(org.springframework.context.ApplicationContext)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2016-08-12 11:59:12,183 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctAuthority]; using defaults.
+2016-08-12 11:59:12,357 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Section]; using defaults.
+2016-08-12 11:59:12,365 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckCommentAd]; using defaults.
+2016-08-12 11:59:12,370 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.TopicAd]; using defaults.
+2016-08-12 11:59:12,375 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckTopicAd]; using defaults.
+2016-08-12 11:59:12,381 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser]; using defaults.
+2016-08-12 11:59:12,404 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Comment]; using defaults.
+2016-08-12 11:59:12,414 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommentAd]; using defaults.
+2016-08-12 11:59:12,421 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommunityLevel]; using defaults.
+2016-08-12 11:59:12,427 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUserInfo]; using defaults.
+2016-08-12 11:59:12,439 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Topic]; using defaults.
+2016-08-12 11:59:12,455 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Node]; using defaults.
+2016-08-12 11:59:12,463 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole]; using defaults.
+2016-08-12 11:59:12,481 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole.authorityList]; using defaults.
+2016-08-12 11:59:12,539 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser.roleList]; using defaults.
+2016-08-12 11:59:13,010 [main] WARN  [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests.setApplicationContext(org.springframework.context.ApplicationContext)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2016-08-12 12:31:56,399 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctAuthority]; using defaults.
+2016-08-12 12:31:56,568 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Section]; using defaults.
+2016-08-12 12:31:56,574 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckCommentAd]; using defaults.
+2016-08-12 12:31:56,580 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.TopicAd]; using defaults.
+2016-08-12 12:31:56,585 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckTopicAd]; using defaults.
+2016-08-12 12:31:56,590 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser]; using defaults.
+2016-08-12 12:31:56,612 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Comment]; using defaults.
+2016-08-12 12:31:56,621 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommentAd]; using defaults.
+2016-08-12 12:31:56,627 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommunityLevel]; using defaults.
+2016-08-12 12:31:56,632 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUserInfo]; using defaults.
+2016-08-12 12:31:56,642 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Topic]; using defaults.
+2016-08-12 12:31:56,657 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Node]; using defaults.
+2016-08-12 12:31:56,665 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole]; using defaults.
+2016-08-12 12:31:56,684 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole.authorityList]; using defaults.
+2016-08-12 12:31:56,737 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser.roleList]; using defaults.
+2016-08-12 12:31:57,198 [main] WARN  [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests.setApplicationContext(org.springframework.context.ApplicationContext)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2016-08-12 22:41:13,311 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctAuthority]; using defaults.
+2016-08-12 22:41:13,542 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Section]; using defaults.
+2016-08-12 22:41:13,552 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckCommentAd]; using defaults.
+2016-08-12 22:41:13,561 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.TopicAd]; using defaults.
+2016-08-12 22:41:13,606 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckTopicAd]; using defaults.
+2016-08-12 22:41:13,614 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser]; using defaults.
+2016-08-12 22:41:13,642 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Comment]; using defaults.
+2016-08-12 22:41:13,655 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommentAd]; using defaults.
+2016-08-12 22:41:13,662 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommunityLevel]; using defaults.
+2016-08-12 22:41:13,670 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUserInfo]; using defaults.
+2016-08-12 22:41:13,681 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Topic]; using defaults.
+2016-08-12 22:41:13,703 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Node]; using defaults.
+2016-08-12 22:41:13,711 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole]; using defaults.
+2016-08-12 22:41:13,731 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole.authorityList]; using defaults.
+2016-08-12 22:41:13,825 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser.roleList]; using defaults.
+2016-08-12 22:41:14,458 [main] WARN  [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests.setApplicationContext(org.springframework.context.ApplicationContext)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2016-08-12 22:41:14,888 [main] WARN  [org.springframework.test.context.TestContextManager] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@1a7c7db] to process 'after' execution for test: method [public void test.cn.tiger.service.bbs.BbsManagerTest.testGetAllCommunityLevels()], instance [test.cn.tiger.service.bbs.BbsManagerTest@2e31fbb6], exception [java.lang.UnsupportedOperationException: Blobs are not cacheable]
+org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:717)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener$TransactionContext.endTransaction(TransactionalTestExecutionListener.java:515)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.endTransaction(TransactionalTestExecutionListener.java:290)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:183)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:426)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:90)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-08-12 22:47:21,009 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctAuthority]; using defaults.
+2016-08-12 22:47:21,306 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Section]; using defaults.
+2016-08-12 22:47:21,315 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckCommentAd]; using defaults.
+2016-08-12 22:47:21,321 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.TopicAd]; using defaults.
+2016-08-12 22:47:21,330 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckTopicAd]; using defaults.
+2016-08-12 22:47:21,338 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser]; using defaults.
+2016-08-12 22:47:21,364 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Comment]; using defaults.
+2016-08-12 22:47:21,373 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommentAd]; using defaults.
+2016-08-12 22:47:21,378 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommunityLevel]; using defaults.
+2016-08-12 22:47:21,384 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUserInfo]; using defaults.
+2016-08-12 22:47:21,399 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Topic]; using defaults.
+2016-08-12 22:47:21,423 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Node]; using defaults.
+2016-08-12 22:47:21,439 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole]; using defaults.
+2016-08-12 22:47:21,464 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole.authorityList]; using defaults.
+2016-08-12 22:47:21,521 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser.roleList]; using defaults.
+2016-08-12 22:47:22,270 [main] WARN  [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests.setApplicationContext(org.springframework.context.ApplicationContext)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2016-08-12 23:13:31,490 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctAuthority]; using defaults.
+2016-08-12 23:13:31,712 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Section]; using defaults.
+2016-08-12 23:13:31,753 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckCommentAd]; using defaults.
+2016-08-12 23:13:31,761 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.TopicAd]; using defaults.
+2016-08-12 23:13:31,769 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckTopicAd]; using defaults.
+2016-08-12 23:13:31,775 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser]; using defaults.
+2016-08-12 23:13:31,797 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Comment]; using defaults.
+2016-08-12 23:13:31,808 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommentAd]; using defaults.
+2016-08-12 23:13:31,816 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommunityLevel]; using defaults.
+2016-08-12 23:13:31,825 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUserInfo]; using defaults.
+2016-08-12 23:13:31,835 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Topic]; using defaults.
+2016-08-12 23:13:31,861 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Node]; using defaults.
+2016-08-12 23:13:31,874 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole]; using defaults.
+2016-08-12 23:13:31,901 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole.authorityList]; using defaults.
+2016-08-12 23:13:31,997 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser.roleList]; using defaults.
+2016-08-12 23:13:32,631 [main] WARN  [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests.setApplicationContext(org.springframework.context.ApplicationContext)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2016-08-12 23:13:33,053 [main] WARN  [org.springframework.test.context.TestContextManager] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@72cc932a] to process 'after' execution for test: method [public void test.cn.tiger.service.bbs.BbsManagerTest.testGetAllCommunityLevels()], instance [test.cn.tiger.service.bbs.BbsManagerTest@54d1e547], exception [java.lang.UnsupportedOperationException: Blobs are not cacheable]
+org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:717)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener$TransactionContext.endTransaction(TransactionalTestExecutionListener.java:515)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.endTransaction(TransactionalTestExecutionListener.java:290)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:183)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:426)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:90)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-08-12 23:19:38,682 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctAuthority]; using defaults.
+2016-08-12 23:19:38,960 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Section]; using defaults.
+2016-08-12 23:19:38,968 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckCommentAd]; using defaults.
+2016-08-12 23:19:38,974 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.TopicAd]; using defaults.
+2016-08-12 23:19:38,980 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckTopicAd]; using defaults.
+2016-08-12 23:19:38,986 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser]; using defaults.
+2016-08-12 23:19:39,007 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Comment]; using defaults.
+2016-08-12 23:19:39,020 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommentAd]; using defaults.
+2016-08-12 23:19:39,026 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommunityLevel]; using defaults.
+2016-08-12 23:19:39,031 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUserInfo]; using defaults.
+2016-08-12 23:19:39,045 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Topic]; using defaults.
+2016-08-12 23:19:39,074 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Node]; using defaults.
+2016-08-12 23:19:39,085 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole]; using defaults.
+2016-08-12 23:19:39,110 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole.authorityList]; using defaults.
+2016-08-12 23:19:39,177 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser.roleList]; using defaults.
+2016-08-12 23:19:39,851 [main] WARN  [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests.setApplicationContext(org.springframework.context.ApplicationContext)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2016-08-12 23:19:40,280 [main] WARN  [org.springframework.test.context.TestContextManager] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@2abfd117] to process 'after' execution for test: method [public void test.cn.tiger.service.bbs.BbsManagerTest.testGetAllCommunityLevels()], instance [test.cn.tiger.service.bbs.BbsManagerTest@173852ee], exception [java.lang.UnsupportedOperationException: Blobs are not cacheable]
+org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:717)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener$TransactionContext.endTransaction(TransactionalTestExecutionListener.java:515)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.endTransaction(TransactionalTestExecutionListener.java:290)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:183)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:426)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:90)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-08-12 23:21:46,385 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctAuthority]; using defaults.
+2016-08-12 23:21:46,674 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Section]; using defaults.
+2016-08-12 23:21:46,683 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckCommentAd]; using defaults.
+2016-08-12 23:21:46,688 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.TopicAd]; using defaults.
+2016-08-12 23:21:46,694 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckTopicAd]; using defaults.
+2016-08-12 23:21:46,700 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser]; using defaults.
+2016-08-12 23:21:46,724 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Comment]; using defaults.
+2016-08-12 23:21:46,740 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommentAd]; using defaults.
+2016-08-12 23:21:46,748 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommunityLevel]; using defaults.
+2016-08-12 23:21:46,756 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUserInfo]; using defaults.
+2016-08-12 23:21:46,768 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Topic]; using defaults.
+2016-08-12 23:21:46,787 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Node]; using defaults.
+2016-08-12 23:21:46,796 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole]; using defaults.
+2016-08-12 23:21:46,822 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole.authorityList]; using defaults.
+2016-08-12 23:21:46,913 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser.roleList]; using defaults.
+2016-08-12 23:21:47,527 [main] WARN  [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests.setApplicationContext(org.springframework.context.ApplicationContext)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2016-08-12 23:21:47,970 [main] WARN  [org.springframework.test.context.TestContextManager] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@2023c3d2] to process 'after' execution for test: method [public void test.cn.tiger.service.bbs.BbsManagerTest.testGetAllCommunityLevels()], instance [test.cn.tiger.service.bbs.BbsManagerTest@c0d207a], exception [java.lang.UnsupportedOperationException: Clobs are not cacheable]
+org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:717)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener$TransactionContext.endTransaction(TransactionalTestExecutionListener.java:515)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.endTransaction(TransactionalTestExecutionListener.java:290)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:183)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:426)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:90)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-08-12 23:22:13,649 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctAuthority]; using defaults.
+2016-08-12 23:22:13,912 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Section]; using defaults.
+2016-08-12 23:22:13,919 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckCommentAd]; using defaults.
+2016-08-12 23:22:13,924 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.TopicAd]; using defaults.
+2016-08-12 23:22:13,930 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckTopicAd]; using defaults.
+2016-08-12 23:22:13,938 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser]; using defaults.
+2016-08-12 23:22:13,965 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Comment]; using defaults.
+2016-08-12 23:22:13,973 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommentAd]; using defaults.
+2016-08-12 23:22:13,979 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommunityLevel]; using defaults.
+2016-08-12 23:22:13,986 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUserInfo]; using defaults.
+2016-08-12 23:22:13,995 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Topic]; using defaults.
+2016-08-12 23:22:14,012 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Node]; using defaults.
+2016-08-12 23:22:14,054 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole]; using defaults.
+2016-08-12 23:22:14,084 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole.authorityList]; using defaults.
+2016-08-12 23:22:14,142 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser.roleList]; using defaults.
+2016-08-12 23:22:14,799 [main] WARN  [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests.setApplicationContext(org.springframework.context.ApplicationContext)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2016-08-12 23:22:15,182 [main] WARN  [org.springframework.test.context.TestContextManager] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@3387f025] to process 'after' execution for test: method [public void test.cn.tiger.service.bbs.BbsManagerTest.testGetAllCommunityLevels()], instance [test.cn.tiger.service.bbs.BbsManagerTest@21a72791], exception [java.lang.UnsupportedOperationException: Clobs are not cacheable]
+org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:717)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener$TransactionContext.endTransaction(TransactionalTestExecutionListener.java:515)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.endTransaction(TransactionalTestExecutionListener.java:290)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:183)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:426)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:90)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-08-12 23:57:16,906 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctAuthority]; using defaults.
+2016-08-12 23:57:17,175 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Section]; using defaults.
+2016-08-12 23:57:17,183 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckCommentAd]; using defaults.
+2016-08-12 23:57:17,190 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.TopicAd]; using defaults.
+2016-08-12 23:57:17,196 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CheckTopicAd]; using defaults.
+2016-08-12 23:57:17,201 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser]; using defaults.
+2016-08-12 23:57:17,244 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Comment]; using defaults.
+2016-08-12 23:57:17,253 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommentAd]; using defaults.
+2016-08-12 23:57:17,259 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.CommunityLevel]; using defaults.
+2016-08-12 23:57:17,265 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUserInfo]; using defaults.
+2016-08-12 23:57:17,275 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Topic]; using defaults.
+2016-08-12 23:57:17,291 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.bbs.Node]; using defaults.
+2016-08-12 23:57:17,301 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole]; using defaults.
+2016-08-12 23:57:17,332 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctRole.authorityList]; using defaults.
+2016-08-12 23:57:17,439 [main] WARN  [org.hibernate.cache.EhCacheProvider] - Could not find configuration [cn.tiger.entity.account.AcctUser.roleList]; using defaults.
+2016-08-12 23:57:18,088 [main] WARN  [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests.setApplicationContext(org.springframework.context.ApplicationContext)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.

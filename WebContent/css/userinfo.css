@@ -1,0 +1,121 @@
+.infoLeve{
+	height:160px;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.infoBorder {
+	border:1px solid #336699;
+}
+
+.infoMarginTop{
+	margin-top: 20px;
+}
+
+.infoMarginBottom{
+	margin-bottom: 20px;
+}
+
+.infoBadgeDiv{
+	height:625px;
+}
+
+.infoBedge{
+	height:160px;
+	padding-left:10px;
+	padding-top:10px;
+	
+}
+
+.baseInfoTitle{
+	margin-top:30px;
+	margin-left:30px;
+}
+
+.infoRight{
+	height:625px;
+	margin-bottom: 20px;
+}
+
+.textBold{
+	font-weight: bold;
+}
+
+.btnEdit{
+	margin-right:25px;
+	line-height: 10px;
+}
+
+.baseInfoText{
+	margin-top:30px;
+	margin-left:30px;
+	text-align: right;
+}
+
+.baseInfoInput{
+	text-align: left;
+}
+
+.baseInfoTextDiv{
+	margin-bottom: 15px;
+	color:#808080;
+}
+
+.baseInfoTextDivValue{
+	margin-bottom: 15px;
+}
+
+.inputBaseInfoTextDivValue{
+	margin-bottom: 11px;
+}
+
+.inputSignatureTextWidth{
+	width:395px;
+}
+
+.inputJobAndQQTextWidth{
+	width:140px;
+}
+
+.imgLevel{
+	margin-top:5px;
+}
+
+.experienceDiv{
+	margin-top:5px;
+}
+
+.rankDiv{
+	margin-top:5px;
+}
+
+.getBadgeText{
+	color:#ff8000;
+}
+
+.badgeInfoText{
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+.badgeFullImgDiv{
+	margin-top:20px;
+	margin-left:20px;
+}
+
+.badgeSmallImgDiv{
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.getBadgeText{
+	margin-top:10px;
+	text-align: center;
+}
+
+.BadgeAlt{
+	margin-top:10px;
+	width:145px;
+	color:#ff8000;
+}

@@ -1,6 +1,8 @@
 package cn.tiger.entity.bbs;
 // Generated 2016-5-25 12:13:56 by Hibernate Tools 3.5.0.Final
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
@@ -226,6 +228,25 @@ public class Topic implements java.io.Serializable {
 	@Transient
 	public String updateTimeToString(){
 		return updateTime.toLocaleString();
+	}
+	
+	//处理过时的toLocaleString()
+	@Transient
+	public String createTimeToString2(){
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		return sdf.format(createTime);
+	}
+	
+	@Transient
+	public String lastCommentAtToString2(){
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		return sdf.format(lastCommentAt);
+	}
+	
+	@Transient
+	public String updateTimeToString2(){
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		return sdf.format(updateTime);
 	}
 
 }

@@ -125,7 +125,7 @@
 										<div class="baseInfoTextDivValue"><s:property value="#request.userInfo.qq"/>&nbsp;</div>
 										<div class="baseInfoTextDivValue"><s:property value="#request.userInfo.signature"/>&nbsp;</div>
 										<div class="baseInfoTextDivValue"><s:property value="#request.user.email"/>&nbsp;</div>
-										<div class="baseInfoTextDivValue"><s:property value="#request.user.createTimeToString()"/></div>
+										<div class="baseInfoTextDivValue"><s:property value="#request.user.createTimeToString2()"/></div>
 										
 										</div>
 										
@@ -181,7 +181,7 @@
 											</div>
 											
 											<div class="baseInfoTextDivValue">
-												<s:property value='#request.user.createTimeToString()'/>
+												<s:property value='#request.user.createTimeToString2()'/>
 											</div>
 											
 											<div class="baseInfoTextDivValue">

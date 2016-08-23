@@ -61,11 +61,11 @@
 			&nbsp;<a href='${ctx }/mypace/bbs/topic!showTopic.action?viewTopicId=<s:property value="#topic.id"/>' target="_blank"><span class="bbstitle"><s:property value="#topic.titleFormat()"/></span></a>
 			</div>
 			<div class="divheight5"></div>
-			<div class="dateStyle"><span class="bbsCreateUser"><s:property value="#topic.acctuser.name"/></span>&nbsp;<s:property value="#topic.createTimeToString()"/>
+			<div class="dateStyle"><span class="bbsCreateUser"><s:property value="#topic.acctuser.name"/></span>&nbsp;<s:property value="#topic.createTimeToString2()"/>
 			<span class="spansmail">|</span>&nbsp;<s:property value="#topic.commentCount"/>&nbsp;回复
 			&nbsp;<span class="spansmail">|</span>
 			<s:if test="#topic.lastacctuser!=null">
-			&nbsp;最后回应&nbsp;<span class="bbsCreateUser"><s:property value="#topic.lastacctuser.name"/></span>&nbsp;<s:property value="#topic.lastCommentAtToString()"/>
+			&nbsp;最后回应&nbsp;<span class="bbsCreateUser"><s:property value="#topic.lastacctuser.name"/></span>&nbsp;<s:property value="#topic.lastCommentAtToString2()"/>
 			&nbsp;
 			</s:if>
 			</div>

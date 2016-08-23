@@ -94,7 +94,7 @@
 		<a href="${ctx }/mypace/bbs/communityadmin!deleteTopic.action?topicId=<s:property value='#request.topic.id'/>"><span class="admin-manage">删除&nbsp;</span></a>
 		</s:if>
 		
-		<span>发表于:</span><span><s:property value='#request.topic.createTimeToString()'/></span></div>
+		<span>发表于:</span><span><s:property value='#request.topic.createTimeToString2()'/></span></div>
 		<div class="col-md-2"></div>
 	</div>
 	
@@ -157,7 +157,7 @@
 	<s:iterator value="#request.commontPage.result" var="comment" status="statu" >
 	<div class="row">
 		<div class="col-md-2"></div>
-		<div class="col-md-8 bbs-top-time"><!-- 计算楼层 --><span class="pull-left"><s:property value='((#request.commontPage.pageNo-1)*9)+#statu.count'/>楼</span>回复于: <span><s:property value='#request.comment.createTimeToString()'/></span></div>
+		<div class="col-md-8 bbs-top-time"><!-- 计算楼层 --><span class="pull-left"><s:property value='((#request.commontPage.pageNo-1)*9)+#statu.count'/>楼</span>回复于: <span><s:property value='#request.comment.createTimeToString2()'/></span></div>
 		<div class="col-md-2"></div>
 	</div>
 	<div class="row bbs-reply-margin-bottom">

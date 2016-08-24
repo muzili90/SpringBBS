@@ -75,7 +75,17 @@ public class BbsManager {
 	//分页查询回复
 	@Transactional(readOnly = true)
 	public Page<Comment> getComments(final Page<Comment> page,List<PropertyFilter> filters) {
-		return commentDao.findPage(page, filters);
+		return commentDao.findPage(page, filters).orderBy("id");
+	}
+	
+	//过滤返回所有回复
+	@Transactional(readOnly = true)
+	public List<Comment> getAllCommentsByFitler(List<PropertyFilter> filters){
+		return commentDao.find(filters);
+	}
+	
+	public void deleteComment(Long id){
+		commentDao.delete(id);
 	}
 	
 	//有序查询所有等级
@@ -138,6 +148,10 @@ public class BbsManager {
 		commentAdDao.save(commentAd);
 	}
 	
+	public void deleteCommentAd(Long id){
+		commentAdDao.delete(id);
+	}
+	
 	public void saveComment(Comment comment){
 		commentDao.save(comment);
 	}
@@ -148,6 +162,10 @@ public class BbsManager {
 	
 	public void saveCheckCommentAd(CheckCommentAd checkCommentAd){
 		checkCommentAdDao.save(checkCommentAd);
+	}
+	
+	public void deleteCheckCommentAd(Long id){
+		checkCommentAdDao.delete(id);
 	}
 	
 	@Transactional(readOnly = true)
@@ -168,6 +186,10 @@ public class BbsManager {
 	@Transactional(readOnly = true)
 	public TopicAd getTopicAdByTopicId(Long topicId){
 		return topicAdDao.findUniqueBy("topic.id", topicId);
+	}
+	
+	public void deleteTopicAd(Long id){
+		topicAdDao.delete(id);
 	}
 	
 	@Transactional(readOnly = true)
@@ -191,8 +213,32 @@ public class BbsManager {
 	}
 	
 	@Transactional(readOnly = true)
+	public CheckTopicAd findCheckTopicAdByTopicId(Long topicId){
+		return checkTopicAdDao.findUniqueBy("topicId", topicId);
+	}
+	
+	@Transactional(readOnly = true)
+	public List<CheckTopicAd> findCheckTopicAdsByTopicId(Long topicId){
+		return checkTopicAdDao.findBy("topicId", topicId);
+	}
+	
+	public void deleteCheckTopicAd(Long id){
+		checkTopicAdDao.delete(id);
+	}
+	
+	@Transactional(readOnly = true)
 	public CheckCommentAd findCheckCommentAd(Long UserId,Long commentId){
 		return checkCommentAdDao.getCheckCommentAd(UserId,commentId);
+	}
+	
+	@Transactional(readOnly = true)
+	public CheckCommentAd findCheckCommentAdByCommentId(Long commentId){
+		return checkCommentAdDao.findUniqueBy("commentId", commentId);
+	}
+	
+	@Transactional(readOnly = true)
+	public List<CheckCommentAd> findCheckCommentAdsByCommentId(Long commentId){
+		return checkCommentAdDao.findBy("commentId", commentId);
 	}
 	
 	@Transactional(readOnly = true)
